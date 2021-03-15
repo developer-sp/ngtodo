@@ -1,0 +1,81 @@
+{
+  "configVersion": 1,
+  "timestamp": 1615806044495,
+  "index": "/ngtodo/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/ngtodo/favicon.ico",
+        "/ngtodo/index.html",
+        "/ngtodo/main.0cca3b8a440a35bb1a88.js",
+        "/ngtodo/manifest.webmanifest",
+        "/ngtodo/polyfills.00096ed7d93ed26ee6df.js",
+        "/ngtodo/runtime.7b63b9fd40098a2e8207.js",
+        "/ngtodo/styles.aa05ff39560dd05d99cc.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/ngtodo/assets/icons/icon-128x128.png",
+        "/ngtodo/assets/icons/icon-144x144.png",
+        "/ngtodo/assets/icons/icon-152x152.png",
+        "/ngtodo/assets/icons/icon-192x192.png",
+        "/ngtodo/assets/icons/icon-384x384.png",
+        "/ngtodo/assets/icons/icon-512x512.png",
+        "/ngtodo/assets/icons/icon-72x72.png",
+        "/ngtodo/assets/icons/icon-96x96.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/ngtodo/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "/ngtodo/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "/ngtodo/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "/ngtodo/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "/ngtodo/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "/ngtodo/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "/ngtodo/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "/ngtodo/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "/ngtodo/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "/ngtodo/index.html": "37834aee2b7c6323da991aaf3be5c8edd7355d31",
+    "/ngtodo/main.0cca3b8a440a35bb1a88.js": "f31e489f6a2ed2fa51ce58bfe78f409d212d7461",
+    "/ngtodo/manifest.webmanifest": "eb0af5728bfcb86f64d22c22a6f78c0681ba9a2b",
+    "/ngtodo/polyfills.00096ed7d93ed26ee6df.js": "cfe7b0b53e96bff9ba384b4d497c08475a617d62",
+    "/ngtodo/runtime.7b63b9fd40098a2e8207.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "/ngtodo/styles.aa05ff39560dd05d99cc.css": "f314eaa3b7f71c474f63b17cc263a2c98dea9bfc"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
